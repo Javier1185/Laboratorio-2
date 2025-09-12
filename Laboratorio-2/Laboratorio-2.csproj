@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArchivoEnBlanco.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
     </Compile>
