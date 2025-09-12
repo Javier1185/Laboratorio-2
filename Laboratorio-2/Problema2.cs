@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Laboratorio_2
 {
-    public partial class Problema2 : Form
+    public partial class Tranformador : Form
     {
-        public Problema2()
+        public Tranformador()
         {
             InitializeComponent();
         }
