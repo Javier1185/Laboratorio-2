@@ -1,6 +1,6 @@
 ﻿namespace Laboratorio_2
 {
-    partial class Tranformador
+    partial class Problema2
     {
         /// <summary>
         /// Required designer variable.
@@ -97,7 +97,7 @@
             this.textResultado.Size = new System.Drawing.Size(157, 29);
             this.textResultado.TabIndex = 5;
             // 
-            // Tranformador
+            // Problema2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -109,7 +109,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.buttonInversor);
             this.Controls.Add(this.label1);
-            this.Name = "Tranformador";
+            this.Name = "Problema2";
             this.Text = "Problema2";
             this.ResumeLayout(false);
             this.PerformLayout();
