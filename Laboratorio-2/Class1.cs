@@ -98,7 +98,5 @@ namespace Laboratorio_2
             }
             return suma;
         }
-
-
     }
 }

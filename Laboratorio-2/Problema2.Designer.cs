@@ -71,10 +71,10 @@
             // textDatos
             // 
             this.textDatos.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textDatos.Location = new System.Drawing.Point(446, 157);
+            this.textDatos.Location = new System.Drawing.Point(445, 153);
+            this.textDatos.Multiline = true;
             this.textDatos.Name = "textDatos";
-            this.textDatos.ReadOnly = true;
-            this.textDatos.Size = new System.Drawing.Size(187, 31);
+            this.textDatos.Size = new System.Drawing.Size(187, 47);
             this.textDatos.TabIndex = 3;
             this.textDatos.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -91,10 +91,11 @@
             // textResultado
             // 
             this.textResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textResultado.Location = new System.Drawing.Point(393, 333);
+            this.textResultado.Location = new System.Drawing.Point(383, 324);
+            this.textResultado.Multiline = true;
             this.textResultado.Name = "textResultado";
             this.textResultado.ReadOnly = true;
-            this.textResultado.Size = new System.Drawing.Size(157, 29);
+            this.textResultado.Size = new System.Drawing.Size(157, 49);
             this.textResultado.TabIndex = 5;
             // 
             // Problema2
