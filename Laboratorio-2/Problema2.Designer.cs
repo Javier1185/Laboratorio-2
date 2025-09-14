@@ -71,7 +71,7 @@
             // textDatos
             // 
             this.textDatos.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textDatos.Location = new System.Drawing.Point(444, 153);
+            this.textDatos.Location = new System.Drawing.Point(445, 153);
             this.textDatos.Multiline = true;
             this.textDatos.Name = "textDatos";
             this.textDatos.Size = new System.Drawing.Size(187, 47);
@@ -91,11 +91,11 @@
             // textResultado
             // 
             this.textResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textResultado.Location = new System.Drawing.Point(383, 331);
+            this.textResultado.Location = new System.Drawing.Point(383, 324);
             this.textResultado.Multiline = true;
             this.textResultado.Name = "textResultado";
             this.textResultado.ReadOnly = true;
-            this.textResultado.Size = new System.Drawing.Size(157, 42);
+            this.textResultado.Size = new System.Drawing.Size(157, 49);
             this.textResultado.TabIndex = 5;
             // 
             // Tranformador
