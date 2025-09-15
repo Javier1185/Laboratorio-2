@@ -8,9 +8,9 @@ namespace Laboratorio_2
 {
     internal class Class1
     {
+
         public double mayorA1000(double[] a)
         {
-
             double Ma1000 = 0;
 
             foreach (double dato in a)
