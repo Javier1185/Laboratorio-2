@@ -34,13 +34,13 @@ namespace Laboratorio_2
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtgenero = new System.Windows.Forms.TextBox();
-            this.txtedad = new System.Windows.Forms.TextBox();
-            this.btncalcular = new System.Windows.Forms.Button();
-            this.labelresultado = new System.Windows.Forms.TextBox();
+            this.txtGenero = new System.Windows.Forms.TextBox();
+            this.txtEdad = new System.Windows.Forms.TextBox();
+            this.btnCalcular = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.btnregistrar = new System.Windows.Forms.Button();
+            this.btnRegistrar = new System.Windows.Forms.Button();
+            this.txtResultados = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -89,43 +89,32 @@ namespace Laboratorio_2
             this.label2.TabIndex = 4;
             this.label2.Text = "Edad";
             // 
-            // txtgenero
+            // txtGenero
             // 
-            this.txtgenero.Location = new System.Drawing.Point(382, 158);
-            this.txtgenero.Multiline = true;
-            this.txtgenero.Name = "txtgenero";
-            this.txtgenero.Size = new System.Drawing.Size(161, 41);
-            this.txtgenero.TabIndex = 5;
-            
+            this.txtGenero.Location = new System.Drawing.Point(382, 158);
+            this.txtGenero.Multiline = true;
+            this.txtGenero.Name = "txtGenero";
+            this.txtGenero.Size = new System.Drawing.Size(161, 41);
+            this.txtGenero.TabIndex = 5;
             // 
-            // txtedad
+            // txtEdad
             // 
-            this.txtedad.Location = new System.Drawing.Point(382, 283);
-            this.txtedad.Multiline = true;
-            this.txtedad.Name = "txtedad";
-            this.txtedad.Size = new System.Drawing.Size(161, 42);
-            this.txtedad.TabIndex = 6;
+            this.txtEdad.Location = new System.Drawing.Point(382, 283);
+            this.txtEdad.Multiline = true;
+            this.txtEdad.Name = "txtEdad";
+            this.txtEdad.Size = new System.Drawing.Size(161, 42);
+            this.txtEdad.TabIndex = 6;
             // 
-            // btncalcular
+            // btnCalcular
             // 
-            this.btncalcular.BackColor = System.Drawing.Color.Red;
-            this.btncalcular.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncalcular.Location = new System.Drawing.Point(588, 359);
-            this.btncalcular.Name = "btncalcular";
-            this.btncalcular.Size = new System.Drawing.Size(149, 46);
-            this.btncalcular.TabIndex = 7;
-            this.btncalcular.Text = "Calcular";
-            this.btncalcular.UseVisualStyleBackColor = false;
-            // 
-            // labelresultado
-            // 
-            this.labelresultado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.labelresultado.Location = new System.Drawing.Point(572, 157);
-            this.labelresultado.Multiline = true;
-            this.labelresultado.Name = "labelresultado";
-            this.labelresultado.ReadOnly = true;
-            this.labelresultado.Size = new System.Drawing.Size(186, 168);
-            this.labelresultado.TabIndex = 8;
+            this.btnCalcular.BackColor = System.Drawing.Color.Red;
+            this.btnCalcular.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalcular.Location = new System.Drawing.Point(588, 359);
+            this.btnCalcular.Name = "btnCalcular";
+            this.btnCalcular.Size = new System.Drawing.Size(149, 46);
+            this.btnCalcular.TabIndex = 7;
+            this.btnCalcular.Text = "Calcular";
+            this.btnCalcular.UseVisualStyleBackColor = false;
             // 
             // pictureBox2
             // 
@@ -145,16 +134,25 @@ namespace Laboratorio_2
             this.pictureBox3.TabIndex = 10;
             this.pictureBox3.TabStop = false;
             // 
-            // btnregistrar
+            // btnRegistrar
             // 
-            this.btnregistrar.BackColor = System.Drawing.Color.Red;
-            this.btnregistrar.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnregistrar.Location = new System.Drawing.Point(242, 359);
-            this.btnregistrar.Name = "btnregistrar";
-            this.btnregistrar.Size = new System.Drawing.Size(149, 46);
-            this.btnregistrar.TabIndex = 11;
-            this.btnregistrar.Text = "Registrar";
-            this.btnregistrar.UseVisualStyleBackColor = false;
+            this.btnRegistrar.BackColor = System.Drawing.Color.Red;
+            this.btnRegistrar.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistrar.Location = new System.Drawing.Point(242, 359);
+            this.btnRegistrar.Name = "btnRegistrar";
+            this.btnRegistrar.Size = new System.Drawing.Size(149, 46);
+            this.btnRegistrar.TabIndex = 11;
+            this.btnRegistrar.Text = "Registrar";
+            this.btnRegistrar.UseVisualStyleBackColor = false;
+            // 
+            // txtResultados
+            // 
+            this.txtResultados.Location = new System.Drawing.Point(576, 158);
+            this.txtResultados.Multiline = true;
+            this.txtResultados.Name = "txtResultados";
+            this.txtResultados.ReadOnly = true;
+            this.txtResultados.Size = new System.Drawing.Size(200, 167);
+            this.txtResultados.TabIndex = 12;
             // 
             // Problema3
             // 
@@ -162,11 +160,11 @@ namespace Laboratorio_2
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnregistrar);
-            this.Controls.Add(this.labelresultado);
-            this.Controls.Add(this.btncalcular);
-            this.Controls.Add(this.txtedad);
-            this.Controls.Add(this.txtgenero);
+            this.Controls.Add(this.txtResultados);
+            this.Controls.Add(this.btnRegistrar);
+            this.Controls.Add(this.btnCalcular);
+            this.Controls.Add(this.txtEdad);
+            this.Controls.Add(this.txtGenero);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
@@ -189,13 +187,13 @@ namespace Laboratorio_2
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtgenero;
-        private System.Windows.Forms.TextBox txtedad;
-        private System.Windows.Forms.Button btncalcular;
-        private System.Windows.Forms.TextBox labelresultado;
+        private System.Windows.Forms.TextBox txtGenero;
+        private System.Windows.Forms.TextBox txtEdad;
+        private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Button btnregistrar;
+        private System.Windows.Forms.Button btnRegistrar;
+        private System.Windows.Forms.TextBox txtResultados;
 
         public EventHandler genero_TextChanged { get; private set; }
     }
